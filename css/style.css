@@ -1,80 +1,63 @@
 body {
-  display: flex;
-  flex-direction: row;
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: sans-serif;
-  background-color: #ffffff;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
-.sidebar {
-  width: 280px;
-  background-color: #f5f7fa;
-  padding: 30px;
-  border-right: 1px solid #ccc;
-  height: 100vh;
-  position: fixed;
-  overflow-y: auto;
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
 }
 
-.sidebar h2 {
-  font-size: 20px;
-  margin-top: 0;
+header nav ul {
+  list-style-type: none;
 }
 
-.sidebar img {
-  max-width: 100%;
-  border-radius: 10px;
-  margin: 15px 0;
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
 }
 
-.sidebar a {
-  display: block;
-  margin-bottom: 10px;
-  color: #333;
+header nav ul li a {
+  color: white;
   text-decoration: none;
 }
 
-.sidebar a:hover {
-  text-decoration: underline;
-}
-
-.main-content {
-  margin-left: 280px;
+section {
   padding: 40px;
-  flex: 1;
 }
 
-.main-content h1 {
-  font-size: 36px;
-  margin-bottom: 10px;
+#home {
+  background-color: #fff;
+  text-align: center;
 }
 
-.main-content p {
-  font-size: 16px;
-  line-height: 1.6;
+#about, #portfolio, #contact {
+  background-color: #f9f9f9;
 }
 
-.project-highlight {
-  margin-top: 30px;
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
 }
 
-.project-highlight h3 {
-  margin-top: 20px;
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
 }
 
-@media (max-width: 768px) {
-  body {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-
-  .main-content {
-    margin-left: 0;
-    padding: 20px;
-  }
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
