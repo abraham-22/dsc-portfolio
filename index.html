@@ -1,57 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" data-wf-page="6338926b7266792d693599b8" data-wf-site="6338926b7266792d693599b1">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Data Science Portfolio</title>
-  <meta content="Personal Data Science Portfolio" property="og:title">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="https://uploads-ssl.webflow.com/6338926b7266792d693599b1/css/antenum-template-webflow.webflow.89915828b.min.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <!-- Sidebar -->
-  <div class="sidebar">
-    <h2>👋 Welcome!</h2>
-    <p>Hi, I'm [Your Name], a data scientist passionate about uncovering insights from data.</p>
-    <img src="https://via.placeholder.com/250" alt="Professional photo">
-
-    <h3>📌 Navigation</h3>
-    <a href="#">Homepage</a>
-    <a href="#">About Me</a>
-    <a href="#">Projects</a>
-    <a href="#">Resume (PDF)</a>
-
-    <h3>💼 Connect</h3>
-    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-    <a href="https://github.com" target="_blank">GitHub</a>
-
-    <h3>🎓 Education</h3>
-    <p>MS in Data Science<br>Bachelor’s in Statistics</p>
-
-    <h3>🛠️ Technical Skills</h3>
-    <p>Python, R, SQL, Tableau, Scikit-learn, TensorFlow</p>
-
-    <h3>🎯 Interests</h3>
-    <p>NLP, Forecasting, Computer Vision, ML Ops</p>
-  </div>
-
-  <!-- Main Content -->
-  <div class="main-content">
-    <h1>Data Science Portfolio</h1>
-    <p>Welcome to my data science portfolio! This collection showcases a variety of projects demonstrating my skills in data analysis, machine learning, statistical modeling, and data engineering across different domains.</p>
-
-    <p>Repository containing portfolio of data science projects completed by me for academic, self-learning, and hobby purposes. Presented in the form of Python files, Jupyter notebooks, and R markdown files.</p>
-
-    <div class="project-highlight">
-      <h3>🌟 Highlighted Projects</h3>
+  <header>
+    <h1>Your Name</h1>
+    <nav>
       <ul>
-        <li><strong>Alzheimer's Disease Progression Modeling:</strong> Built predictive models to assess disease stage using SVMs and Neural Networks.</li>
-        <li><strong>Retail Sales Forecasting:</strong> Time series analysis to predict sales using ARIMA and Prophet.</li>
-        <li><strong>Movie Recommender System:</strong> Personalized recommendations using collaborative filtering and content-based techniques.</li>
-        <li><strong>GHG Emissions Clustering:</strong> Grouped vehicles based on emission patterns using K-Means.</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-    </div>
-  </div>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to My Portfolio</h2>
+    <p>Short introduction of who you are and what you do.</p>
+    <button><a href="#portfolio">View My Work</a></button>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Details about your background, skills, and professional experiences.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <!-- Project listings here -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to get in touch!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
 </body>
 </html>
