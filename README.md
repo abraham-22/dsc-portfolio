@@ -18,18 +18,14 @@ I'm a data science professional with a strong foundation in statistics, machine 
 Each project folder typically includes:
 
 - `README.md`: Overview, objectives, and results
-- `data/`: Datasets used or links to sources
+- `dataset/`: Datasets used or links to sources
 - `notebooks/`: Exploratory Data Analysis (EDA) and modeling
-- `src/`: Scripts and reusable code
-- `results/`: Visualizations, reports, and findings
 
 ---
 
 ## 📬 Contact
 
-📧 Email: your.email@example.com  
-🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)  
-💼 LinkedIn: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)  
+🌐 Portfolio: [abraham-22.github.io/dsc-portfolio/](https://abraham-22.github.io/dsc-portfolio/)   
 📁 GitHub: [github.com/abraham-22](https://github.com/abraham-22)
 
 
